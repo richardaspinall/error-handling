@@ -1,0 +1,23 @@
+# Usage:
+With the REST Client extension in vscode, the below requests will show an option 
+to send the request as a curl command. 
+
+###
+
+POST http://localhost:3000 HTTP/1.1
+content-type: application/json
+
+{
+    "a": 10,
+    "b": 2
+}
+
+###
+
+GET http://localhost:3000/ HTTP/1.1
+content-type: application/json
+
+{
+    "a": 10,
+    "b": 5
+}
